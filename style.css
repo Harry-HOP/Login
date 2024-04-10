@@ -1,0 +1,165 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(69, 199, 156);
+    
+}
+
+header {
+    position: relative;
+    height: 450px; 
+    width: 400px;
+    background-color: white;
+    border-radius: 28px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.box{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(61, 237, 178);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px 28px 0px 0px;
+
+}
+
+.box h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+   
+}
+
+.enter{
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.username{
+    display: flex;
+    margin: 0px;
+    padding: 0;
+}
+
+.pas{
+    display: flex;
+}
+
+.icon{
+    background-color: rgb(61, 237, 178);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon i{
+    color: white;
+    height: 
+}
+
+.icone{
+    background-color: rgb(61, 237, 178);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone i{
+    color: white;
+}
+
+.username input{
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.pas input{
+    width: 100%;
+    height: auto;
+}
+
+#forget{
+    color:rgb(61, 237, 178);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+   
+}
+
+.b-town{
+    position: relative;
+    margin: 30px;
+
+
+}
+
+#btn{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(61, 237, 178);
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    
+}
+
+#btn p{
+    color: white;
+    font-weight: 600;
+}
+
+.last{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.last label{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.last a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:rgb(61, 237, 178)
+}
+
+
+
+
+
+
+
+
